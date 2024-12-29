@@ -1,0 +1,172 @@
+.container {
+    height: 600px;
+    background-color: white;
+    width: 533px;
+    margin-left: auto;
+    margin-right: auto;
+}
+input, select {
+    padding: 0px 8px;
+}
+
+select {
+    background-color: #F5F5F5;
+}
+
+.slider-btns {
+    width: 513px;
+    height: 42px;
+    display: flex;
+    flex-direction: row;
+    align-items: stretch;
+    margin-left: auto;
+    margin-right: auto;
+    padding-top: 15px;
+    
+}
+
+.swap-ruler {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+.swap-ruler > hr {
+    transform: rotate(90deg);
+    height: 30px;
+}
+
+.arrow {
+    border: none;
+    cursor: pointer;
+}
+
+.slider-btns > button {
+    width: 171px;
+    height: 42px;
+    border: none;
+    border-radius: 12px;
+    font-size: 16px;
+    background-color: white;
+    border: 1px solid #D8D8D8;
+}
+.active {
+    background-color: #0B4AE1!important;
+    color: white;
+}
+
+.slider-body {
+    width: 513px;
+    height: 519px;
+}
+
+.items {
+    width: 477px;
+    height: 349px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 20px;
+}
+
+.items > .item {
+    padding: 10px;
+    width: 477px;
+    height: 140px;
+    border: 1px solid #D8D8D8;
+    border-radius: 10px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.swap-ruler {
+    margin: 15px;
+}
+
+.payment-select > select {
+    width: 453px;
+    height: 46px;
+    border: none;
+    border: 1px solid #D8D8D8;
+    border-radius: 10px;
+}
+
+.input-val {
+    width: 453px;
+    height: 46px;
+}
+
+.input-val > input {
+    width: 325px;
+    height: 46px;
+    border: none;
+    border: 1px solid #D8D8D8;
+    border-radius: 10px;
+    margin: 5px 5px 0px 0px;
+}
+.input-val > select {
+    width: 120px;
+    height: 46px;
+    border: none;
+    border: 1px solid #D8D8D8;
+    border-radius: 10px;
+    margin: 5px 0px 0px 0px;
+}
+
+.balance {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-top: 10px;
+    font-size: 14px;
+    color: grey;
+}
+
+.balance > .balance-right {
+    display: flex;
+    flex-direction: row;
+}
+
+.balance > .balance-right > .amt {
+    color: black; 
+}
+
+.detail {
+    margin-top: 5px;
+}
+
+.details > .detail {
+     display: flex;
+     justify-content: space-between;
+     padding: 0px 24px;
+     color: grey;
+}
+
+.amt {
+    color: black;
+}
+.submit {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.submit-btn {
+    cursor: pointer;
+    border: none;
+    width: 513px;
+    height: 52px;
+    /* margin-left: auto;
+    margin-right: auto; */
+    border-radius: 12px;
+    /* margin: 0px 24px; */
+    background-color: #3b38e0;
+    color: white;
+    font-size: 17px;
+    margin-top: 10px;
+    cursor: pointer;
+}
+
+.submit-btn:disabled {
+    background-color:#0B4AE14D;
+    color: #0B4AE1;    
+    cursor: not-allowed;
+}
